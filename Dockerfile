@@ -52,10 +52,10 @@ CMD ss-server --fast-open \
               -a nobody \
               -s $SERVER_ADDR \
               -p $SERVER_PORT \
-              -k ${PASSWORD:-$(hostname)} \
-              -m $METHOD \
+              -k ${SS_PASSWORD:-$(hostname)} \
+              -m $SS_METHOD \
               -t $TIMEOUT \
-              -d $DNS_ADDR \
+              -d $DNS_ADDR_1 \
               -d $DNS_ADDR_2 \
               --no-delay \
               -u \
