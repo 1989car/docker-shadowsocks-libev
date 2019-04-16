@@ -6,7 +6,7 @@ FROM  alpine
 
 LABEL maintainer      =   "Che Haojia <chehaojia@gmail.com>"
 
-ARG VERSION=3.2.0
+ARG VERSION=3.2.5
 ARG SS_URL=https://github.com/shadowsocks/shadowsocks-libev/releases/download/v$VERSION/shadowsocks-libev-$VERSION.tar.gz
 
 ENV   SERVER_ADDR     0.0.0.0
